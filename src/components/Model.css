@@ -1,0 +1,39 @@
+.model-container{
+  position: fixed;
+  left:0;
+  top:0;
+  width:100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0,0,0,0.5);
+}
+.model{
+  background-color: white;
+  border-radius: 5px;
+  padding: 2rem;
+  width: 30em;
+}
+
+.btn-submit{
+  background-color: #42e942;
+}
+.btn-cancel{
+  background-color: red;
+}
+.close{
+  cursor: pointer;
+}
+.model-header{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2rem;
+}
+.model-content{
+  margin-bottom: 2rem;
+}
+.model-footer{
+  display: flex;
+  justify-content: space-evenly;
+}
