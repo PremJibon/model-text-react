@@ -12,7 +12,7 @@ export const Model =({onSubmit ,onClick ,onClose, children})=>{
       </div>
       <div className="model-footer">
         <button className="btn btn-submit" onClick={()=> onSubmit()}>Submit</button>
-        <button className="btn btn-cancel" onClick={()=> onCancel()}>Cancel</button>
+        <button className="btn btn-cancel" onClick={()=> onClose()}>Cancel</button>
       </div>
     </div>
   </div>
